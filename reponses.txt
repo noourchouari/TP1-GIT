@@ -1,0 +1,70 @@
+(1) La commande git status affiche la branche sur laquelle on est, les Untracked filed les fichiers à add et le fait qu'on ai aucun ficher à commit
+
+(2) Git status met en vert les fichers qui peuvent être commit et en rouge le ficher réponse que je n'ai pas encore add
+
+(3) Dans l'espace staging area
+
+4)	echap 
+	:wq
+	appuyer entrer
+
+(5) La commande git log
+
+(6) 	Git diff --staged compare les ficher entre la version dans le working directory et la staging area 
+	tandis que 
+	Git diff compare seulement dans le working directory
+
+(7)	git show affiche un commit précis ou on precise le hash du commit.
+	git status montre l'état des fichiers si les dernières modifications sont add ou commmit ou aucuns des deux.
+	git diff montre la différence entre la nouvelle et l'ancienne version d'un ficher.
+	git log montre l'ensemble des differents commit ainsi que leur commentaires.
+
+
+(8) La commande me dit que mes deux fichiers peuvent être commit
+
+(9) La commande git reset retire de la zone Staring area le fichier que l'on veut et le remet dans la zone working directory
+
+(10) git status pour voir l'etat des fichier , le ficher brouillon.txt est afficher en rouge donc n'a pas été add ni commmit
+
+(11)git status
+
+(12)git status
+git log --oneline
+
+(13)git clone https://github.com/PaulineLam24/TP-Git.git
+
+(14) Un seul fichier le readme (La commande utilisée est : ls)
+
+	On retrouve en commit:	Correctif README.md
+			Ajout dans README.md
+			Initial commit
+
+	git log --oneline
+
+(15) git diff 9b68 f7a7
+
+diff --git a/README.md b/README.md
+index cd6b588..4cb5825 100644
+--- a/README.md
++++ b/README.md
+@@ -1 +1,2 @@
+-# TP-Git
+\ No newline at end of file
++# TP-Git
++# Ceci est un fichier README.md...
+
+ git diff f7a7 f813
+diff --git a/README.md b/README.md
+index 4cb5825..b99c86f 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,3 @@
+ # TP-Git
+-# Ceci est un fichier README.md...
++
++Ceci est un fichier README.md...
+
+
+
+
+
